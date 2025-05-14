@@ -1,8 +1,8 @@
 //
-//  LIVERPOOLAppApp.swift
-//  LIVERPOOLApp
+//  Liverpool_SellerApp.swift
+//  Liverpool-Seller
 //
-//  Created by yatziri on 13/05/25.
+//  Created by Gustavo Isaac Lopez Nunez on 13/05/25.
 //
 
 import SwiftUI
@@ -25,12 +25,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 }
 
 @main
-struct LIVERPOOLAppApp: App {
+struct Liverpool_SellerApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SellerClientsListView()
         }
     }
 }

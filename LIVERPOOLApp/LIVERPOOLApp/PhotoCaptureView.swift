@@ -56,6 +56,7 @@ struct ImagePicker: UIViewControllerRepresentable {
 struct PhotoCaptureView: View {
     let onCancel: () -> Void
     let onSave:   () -> Void
+    @StateObject var vm = ClienteViewModel()
 
     @State private var inputImage: UIImage?
     @State private var image: Image?
@@ -119,7 +120,14 @@ struct PhotoCaptureView: View {
                 .cornerRadius(8)
 
                 Button("Compartir") {
-                    onSave()
+                  guard let uiImage = inputImage else { return }
+                  vm.uploadCustomer(name: "Isaac Lopez Nuñez", image: uiImage) { success in
+                    if success {
+                      onSave()    // navega a StoreModeView
+                    } else {
+                      // muestra un error
+                    }
+                  }
                 }
                 .disabled(image == nil)
                 .frame(maxWidth: .infinity)
@@ -131,7 +139,7 @@ struct PhotoCaptureView: View {
             .padding(.horizontal)
             .padding(.bottom, 16)
         }
-        .onChange(of: inputImage) { _ in loadImage() }
+        .onChange(of: inputImage) { _, _ in loadImage() }
         .sheet(isPresented: $showCamera) {
             ImagePicker(sourceType: .camera, image: $inputImage)
         }

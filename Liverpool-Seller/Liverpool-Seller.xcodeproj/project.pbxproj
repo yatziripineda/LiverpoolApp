@@ -7,64 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC82330B2DD4100E004969A7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EC82330A2DD4100E004969A7 /* FirebaseAuth */; };
-		EC82330D2DD4100E004969A7 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = EC82330C2DD4100E004969A7 /* FirebaseCore */; };
-		EC82330F2DD4100E004969A7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EC82330E2DD4100E004969A7 /* FirebaseFirestore */; };
-		EC8233112DD4100E004969A7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EC8233102DD4100E004969A7 /* FirebaseStorage */; };
+		EC8233232DD4170E004969A7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EC8233222DD4170E004969A7 /* FirebaseAuth */; };
+		EC8233252DD4170E004969A7 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = EC8233242DD4170E004969A7 /* FirebaseCore */; };
+		EC8233272DD4170E004969A7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EC8233262DD4170E004969A7 /* FirebaseFirestore */; };
+		EC8233292DD4170E004969A7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = EC8233282DD4170E004969A7 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		78AE20862DD3CA33005B3E93 /* LIVERPOOLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIVERPOOLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8232F82DD40FA9004969A7 /* Liverpool-Seller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liverpool-Seller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EC8232ED2DD4003D004969A7 /* Exceptions for "LIVERPOOLApp" folder in "LIVERPOOLApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 78AE20852DD3CA33005B3E93 /* LIVERPOOLApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		78AE20882DD3CA33005B3E93 /* LIVERPOOLApp */ = {
+		EC8232FA2DD40FA9004969A7 /* Liverpool-Seller */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EC8232ED2DD4003D004969A7 /* Exceptions for "LIVERPOOLApp" folder in "LIVERPOOLApp" target */,
-			);
-			path = LIVERPOOLApp;
+			path = "Liverpool-Seller";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		78AE20832DD3CA33005B3E93 /* Frameworks */ = {
+		EC8232F52DD40FA9004969A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC82330D2DD4100E004969A7 /* FirebaseCore in Frameworks */,
-				EC8233112DD4100E004969A7 /* FirebaseStorage in Frameworks */,
-				EC82330B2DD4100E004969A7 /* FirebaseAuth in Frameworks */,
-				EC82330F2DD4100E004969A7 /* FirebaseFirestore in Frameworks */,
+				EC8233252DD4170E004969A7 /* FirebaseCore in Frameworks */,
+				EC8233292DD4170E004969A7 /* FirebaseStorage in Frameworks */,
+				EC8233232DD4170E004969A7 /* FirebaseAuth in Frameworks */,
+				EC8233272DD4170E004969A7 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		78AE207D2DD3CA33005B3E93 = {
+		EC8232EF2DD40FA9004969A7 = {
 			isa = PBXGroup;
 			children = (
-				78AE20882DD3CA33005B3E93 /* LIVERPOOLApp */,
-				78AE20872DD3CA33005B3E93 /* Products */,
+				EC8232FA2DD40FA9004969A7 /* Liverpool-Seller */,
+				EC8232F92DD40FA9004969A7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		78AE20872DD3CA33005B3E93 /* Products */ = {
+		EC8232F92DD40FA9004969A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78AE20862DD3CA33005B3E93 /* LIVERPOOLApp.app */,
+				EC8232F82DD40FA9004969A7 /* Liverpool-Seller.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,71 +59,71 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		78AE20852DD3CA33005B3E93 /* LIVERPOOLApp */ = {
+		EC8232F72DD40FA9004969A7 /* Liverpool-Seller */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78AE20912DD3CA35005B3E93 /* Build configuration list for PBXNativeTarget "LIVERPOOLApp" */;
+			buildConfigurationList = EC8233062DD40FAB004969A7 /* Build configuration list for PBXNativeTarget "Liverpool-Seller" */;
 			buildPhases = (
-				78AE20822DD3CA33005B3E93 /* Sources */,
-				78AE20832DD3CA33005B3E93 /* Frameworks */,
-				78AE20842DD3CA33005B3E93 /* Resources */,
+				EC8232F42DD40FA9004969A7 /* Sources */,
+				EC8232F52DD40FA9004969A7 /* Frameworks */,
+				EC8232F62DD40FA9004969A7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				78AE20882DD3CA33005B3E93 /* LIVERPOOLApp */,
+				EC8232FA2DD40FA9004969A7 /* Liverpool-Seller */,
 			);
-			name = LIVERPOOLApp;
+			name = "Liverpool-Seller";
 			packageProductDependencies = (
-				EC82330A2DD4100E004969A7 /* FirebaseAuth */,
-				EC82330C2DD4100E004969A7 /* FirebaseCore */,
-				EC82330E2DD4100E004969A7 /* FirebaseFirestore */,
-				EC8233102DD4100E004969A7 /* FirebaseStorage */,
+				EC8233222DD4170E004969A7 /* FirebaseAuth */,
+				EC8233242DD4170E004969A7 /* FirebaseCore */,
+				EC8233262DD4170E004969A7 /* FirebaseFirestore */,
+				EC8233282DD4170E004969A7 /* FirebaseStorage */,
 			);
-			productName = LIVERPOOLApp;
-			productReference = 78AE20862DD3CA33005B3E93 /* LIVERPOOLApp.app */;
+			productName = "Liverpool-Seller";
+			productReference = EC8232F82DD40FA9004969A7 /* Liverpool-Seller.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		78AE207E2DD3CA33005B3E93 /* Project object */ = {
+		EC8232F02DD40FA9004969A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					78AE20852DD3CA33005B3E93 = {
-						CreatedOnToolsVersion = 16.3;
+					EC8232F72DD40FA9004969A7 = {
+						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 78AE20812DD3CA33005B3E93 /* Build configuration list for PBXProject "LIVERPOOLApp" */;
+			buildConfigurationList = EC8232F32DD40FA9004969A7 /* Build configuration list for PBXProject "Liverpool-Seller" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 78AE207D2DD3CA33005B3E93;
+			mainGroup = EC8232EF2DD40FA9004969A7;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				EC8233092DD4100E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EC8233212DD4170E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 78AE20872DD3CA33005B3E93 /* Products */;
+			productRefGroup = EC8232F92DD40FA9004969A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78AE20852DD3CA33005B3E93 /* LIVERPOOLApp */,
+				EC8232F72DD40FA9004969A7 /* Liverpool-Seller */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		78AE20842DD3CA33005B3E93 /* Resources */ = {
+		EC8232F62DD40FA9004969A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -146,7 +133,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		78AE20822DD3CA33005B3E93 /* Sources */ = {
+		EC8232F42DD40FA9004969A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -156,7 +143,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		78AE208F2DD3CA35005B3E93 /* Debug */ = {
+		EC8233042DD40FAB004969A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -219,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		78AE20902DD3CA35005B3E93 /* Release */ = {
+		EC8233052DD40FAB004969A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,30 +262,28 @@
 			};
 			name = Release;
 		};
-		78AE20922DD3CA35005B3E93 /* Debug */ = {
+		EC8233072DD40FAB004969A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Liverpool-Seller/Preview Content\"";
 				DEVELOPMENT_TEAM = 457CNACK2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LIVERPOOLApp/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Necesitamos saber como te ves para ayudarte";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yat.LIVERPOOLApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "gisaaclopez.Liverpool-Seller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -306,30 +291,28 @@
 			};
 			name = Debug;
 		};
-		78AE20932DD3CA35005B3E93 /* Release */ = {
+		EC8233082DD40FAB004969A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Liverpool-Seller/Preview Content\"";
 				DEVELOPMENT_TEAM = 457CNACK2W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LIVERPOOLApp/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Necesitamos saber como te ves para ayudarte";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = yat.LIVERPOOLApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "gisaaclopez.Liverpool-Seller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -340,20 +323,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		78AE20812DD3CA33005B3E93 /* Build configuration list for PBXProject "LIVERPOOLApp" */ = {
+		EC8232F32DD40FA9004969A7 /* Build configuration list for PBXProject "Liverpool-Seller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78AE208F2DD3CA35005B3E93 /* Debug */,
-				78AE20902DD3CA35005B3E93 /* Release */,
+				EC8233042DD40FAB004969A7 /* Debug */,
+				EC8233052DD40FAB004969A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78AE20912DD3CA35005B3E93 /* Build configuration list for PBXNativeTarget "LIVERPOOLApp" */ = {
+		EC8233062DD40FAB004969A7 /* Build configuration list for PBXNativeTarget "Liverpool-Seller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78AE20922DD3CA35005B3E93 /* Debug */,
-				78AE20932DD3CA35005B3E93 /* Release */,
+				EC8233072DD40FAB004969A7 /* Debug */,
+				EC8233082DD40FAB004969A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -361,7 +344,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EC8233092DD4100E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		EC8233212DD4170E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
@@ -372,27 +355,27 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EC82330A2DD4100E004969A7 /* FirebaseAuth */ = {
+		EC8233222DD4170E004969A7 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EC8233092DD4100E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = EC8233212DD4170E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
-		EC82330C2DD4100E004969A7 /* FirebaseCore */ = {
+		EC8233242DD4170E004969A7 /* FirebaseCore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EC8233092DD4100E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = EC8233212DD4170E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCore;
 		};
-		EC82330E2DD4100E004969A7 /* FirebaseFirestore */ = {
+		EC8233262DD4170E004969A7 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EC8233092DD4100E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = EC8233212DD4170E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
-		EC8233102DD4100E004969A7 /* FirebaseStorage */ = {
+		EC8233282DD4170E004969A7 /* FirebaseStorage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EC8233092DD4100E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = EC8233212DD4170E004969A7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 78AE207E2DD3CA33005B3E93 /* Project object */;
+	rootObject = EC8232F02DD40FA9004969A7 /* Project object */;
 }
